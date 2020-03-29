@@ -1,6 +1,7 @@
 <template>
   <div>
-    <button @click="mutationsIncrement" class="btn btn-success">Button 1</button>
+    <button @click="mutationsIncrement">Button 1</button>
+    <p>(will add immediatelly)</p>
   </div>
 </template>
 

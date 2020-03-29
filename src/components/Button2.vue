@@ -1,6 +1,8 @@
 <template>
   <div>
-    <button @click="asyncIncrement" class="btn btn-info">async Butt</button>
+    <hr>
+    <button @click="asyncIncrement">async Butt</button>
+    <p>(will add after 2 sec)</p>
   </div>
 </template>
 

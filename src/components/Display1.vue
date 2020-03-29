@@ -1,7 +1,7 @@
 <template>
   <div>
-    <p>Display1</p>
-    <p>Number: {{ getterNumber }}</p>
+    <p>Display1: <strong>{{ getterNumber }}</strong></p>
+    <p>(connected to central state)</p>
   </div>
 </template>
 

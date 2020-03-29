@@ -3,11 +3,12 @@ import Vuex from 'vuex';
 Vue.use(Vuex);
 
 export const store = new Vuex.Store({
-  state: {
-    number: 0,
-  },
+  
   getters: {
     getterNumber: state => state.number,
+  },
+  state: {
+    number: 0,
   },
   mutations: {
     mutationsIncrement(state){
@@ -18,7 +19,7 @@ export const store = new Vuex.Store({
     asyncIncrement: ({commit }) => {
       setTimeout(() => {
         commit('mutationsIncrement');
-      }, 1000 );
+      }, 2000 );
     }
   }
 });

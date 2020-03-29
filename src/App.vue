@@ -1,23 +1,15 @@
 <template>
   <div id="app" class="container">
     <div class="d-flex flex-row justify-content-around top-margin border border-success my-padding">
-
       <div>
         <app-button1></app-button1>
         <app-button2></app-button2>
       </div>
-
-      <div>
-        <p>we will see</p>
-      </div>
-
       <div>
         <app-display1></app-display1>
         <app-display2></app-display2>
       </div>
-
     </div>
-    
   </div>
 </template>
 
